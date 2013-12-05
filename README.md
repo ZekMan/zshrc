@@ -5,9 +5,12 @@
 ## Installation ##
 
     cd /tmp
-    git clone git://github.com/bosha/zshrc.git
+    git clone git://github.com/ZekMan/zshrc.git
     cd zshrc
     mv .zshrc .zsh/ ~/
+    mkdir ~/.zsh/plugins
+    cd ~/.zsh/plugins
+    git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
 
 ## Other ##
 
